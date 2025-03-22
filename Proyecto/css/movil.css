@@ -1,0 +1,61 @@
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 75%; /* Reduce ligeramente el tamaño de fuente */
+    }
+
+    #contenedor {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cabecera {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contenido {
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    #paginas {
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+
+    #pie {
+        width: 100%;
+        text-align: center;
+    }
+
+    img.noticias {
+        width: 100%; 
+        height: auto; 
+        display: block;
+        margin: 0 auto;
+    }
+
+    img.logos {
+        width: 100px; /* Reduce los logos para que no ocupen demasiado espacio */
+        height: auto;
+    }
+
+    div.imagenes {
+        text-align: center;
+    }
+
+    p.paginas {
+        text-align: center;
+        font-size: 85%;
+    }
+
+    input[type="text"], button {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
